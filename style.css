@@ -1,0 +1,5 @@
+.image-container {
+  position: relative; /* Acts as the anchor point for the top image */
+  width: 500px;       /* Set your desired width */
+  display: inline-block;
+}
