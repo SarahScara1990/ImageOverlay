@@ -1,23 +1,16 @@
-.image-container {
-  position: relative; /* Acts as the anchor point for the top image */
-  width: 500px;       /* Set your desired width */
-  display: inline-block;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <title>My Webpage</title>
+    <!-- This line links your CSS file -->
+    <link rel="stylesheet" href="style.css">
 
-.base-img {
-  width: 100%;        /* Forces the background to fill the container */
-  display: block;
-}
-
-.top-img {
-  position: absolute; /* Lifts image out of regular flow */
-  top: 20px;          /* Distance from the container's top edge */
-  left: 20px;         /* Distance from the container's left edge */
-  width: 100px;       /* Set your overlay size */
-  z-index: 10;        /* Higher number ensures it stays on top */
-}
-
+  <body>
 <div class="image-container">
   <img src="background-image.jpg" alt="Background" class="base-img">
   <img src="overlay-logo.png" alt="Overlay" class="top-img">
 </div>
+  </body>
+  </head>
+</html>
